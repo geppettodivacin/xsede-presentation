@@ -1,0 +1,46 @@
+\usepackage{tikz}
+\usepackage[T1]{fontenc}
+\usepackage{pslatex}
+\usepackage{contour}
+\usepackage{color}
+
+\contourlength{1pt}
+\contournumber{20}
+
+\setbeamertemplate{title page}
+{
+  \vskip 80pt
+    \usebeamercolor[fg]{title}\usebeamerfont{title}
+    \contour{black}{\inserttitle}\par
+    \vskip 6pt
+    \usebeamercolor[fg]{subtitle}\usebeamerfont{subtitle}\insertsubtitle
+  \ifx\insertauthor\@empty
+  \else
+    \vskip 12pt
+    \usebeamercolor[fg]{author}\usebeamerfont{author}\insertauthor\par
+  \fi
+  \ifx\insertinstitute\@empty
+  \else
+    \vskip 6pt
+    \usebeamercolor[fg]{institute}\usebeamerfont{institute}\insertinstitute\par
+  \fi
+  \ifx\insertdate\@empty
+  \else
+  \begin{tikzpicture}[remember picture, overlay]
+    \node [anchor=north east, xshift=-4mm, yshift=-5mm] at (current page.north east)
+      {\usebeamercolor[fg]{date}\usebeamerfont{date}\insertdate\par};
+    \node [anchor=south east, xshift=-5mm, yshift=12mm] at (current page.south east)
+      {\includegraphics[width=12mm]{nsf_logo.png}};
+  \end{tikzpicture}
+  \fi
+}
+
+\renewcommand{\maketitle}
+{
+  \bgroup
+  \setbeamertemplate{background canvas} { \includegraphics[width=\paperwidth, height=\paperheight]{xsede-background.png} }
+  \begin{frame}[plain]
+    \titlepage
+  \end{frame}
+  \egroup
+}

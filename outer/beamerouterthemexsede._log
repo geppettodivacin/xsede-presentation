@@ -1,0 +1,26 @@
+Input File::/home/eric/texmf/tex/latex/beamer/base/themes/outer/beamerouterthemexsede.sty::0::0::Input File
+LaTeX Error::/home/eric/texmf/tex/latex/beamer/base/themes/outer/beamerouterthemexsede.sty::1::0::\usepackage before \documentclass. |\usepackage{ tikz} 
+LaTeX Error::/home/eric/texmf/tex/latex/beamer/base/themes/outer/beamerouterthemexsede.sty::3::0::Undefined control sequence. |\setbeamertemplate {footline}
+LaTeX Error::/home/eric/texmf/tex/latex/beamer/base/themes/outer/beamerouterthemexsede.sty::3::0::Missing \begin{document}. |\setbeamertemplate{f ootline} 
+LaTeX Error::/home/eric/texmf/tex/latex/beamer/base/themes/outer/beamerouterthemexsede.sty::5::0::Environment tikzpicture undefined. |  \begin{tikzpicture} [remember picture, overlay] 
+LaTeX Error::/home/eric/texmf/tex/latex/beamer/base/themes/outer/beamerouterthemexsede.sty::6::0::Undefined control sequence. |    \node [anchor=south, xshift=-0.1pt, yshift=-2.1pt] (image) at (curre...
+LaTeX Error::/home/eric/texmf/tex/latex/beamer/base/themes/outer/beamerouterthemexsede.sty::7::0::Undefined control sequence. |      {\includegraphics [width=\paperwidth]{footer.png}};
+LaTeX Error::/home/eric/texmf/tex/latex/beamer/base/themes/outer/beamerouterthemexsede.sty::7::0::Missing number, treated as zero. |      {\includegraphics[width=\paperwidth] {footer.png}};
+LaTeX Error::/home/eric/texmf/tex/latex/beamer/base/themes/outer/beamerouterthemexsede.sty::7::0::Illegal unit of measure (pt inserted). |      {\includegraphics[width=\paperwidth] {footer.png}};
+LaTeX Error::/home/eric/texmf/tex/latex/beamer/base/themes/outer/beamerouterthemexsede.sty::8::0::Undefined control sequence. |    \node [anchor=west, xshift=17.5mm, yshift=-9.5mm] (pgnum) at (image....
+LaTeX Error::/home/eric/texmf/tex/latex/beamer/base/themes/outer/beamerouterthemexsede.sty::9::0::Undefined control sequence. |      {\usebeamercolor [fg]{page number in head/foot}\usebeamerfont{page ...
+LaTeX Error::/home/eric/texmf/tex/latex/beamer/base/themes/outer/beamerouterthemexsede.sty::9::0::Undefined control sequence. |...fg]{page number in head/foot}\usebeamerfont {page number in head/foot}...
+LaTeX Error::/home/eric/texmf/tex/latex/beamer/base/themes/outer/beamerouterthemexsede.sty::9::0::Undefined control sequence. |...age number in head/foot} \insertframenumber };
+LaTeX Error::/home/eric/texmf/tex/latex/beamer/base/themes/outer/beamerouterthemexsede.sty::10::0::Undefined control sequence. |    \node [anchor=west, xshift=17mm] (nsf) at (image.west)
+LaTeX Error::/home/eric/texmf/tex/latex/beamer/base/themes/outer/beamerouterthemexsede.sty::11::0::Undefined control sequence. |      {\includegraphics [width=10mm]{nsf_logo.png}};
+LaTeX Error::/home/eric/texmf/tex/latex/beamer/base/themes/outer/beamerouterthemexsede.sty::11::0::Missing $ inserted.
+LaTeX Font Info::/home/eric/texmf/tex/latex/beamer/base/themes/outer/beamerouterthemexsede.sty::11::0::   External font `cmex10' loaded for size <7>.
+LaTeX Font Info::/home/eric/texmf/tex/latex/beamer/base/themes/outer/beamerouterthemexsede.sty::11::0::   External font `cmex10' loaded for size <5>.
+LaTeX Error::/home/eric/texmf/tex/latex/beamer/base/themes/outer/beamerouterthemexsede.sty::11::0::Extra }, or forgotten $. |...\includegraphics[width=10mm]{nsf_logo.png} };
+LaTeX Error::/home/eric/texmf/tex/latex/beamer/base/themes/outer/beamerouterthemexsede.sty::11::0::Extra }, or forgotten $. |...includegraphics[width=10mm]{nsf_logo.png}} ;
+LaTeX Error::/home/eric/texmf/tex/latex/beamer/base/themes/outer/beamerouterthemexsede.sty::12::0::\begin{document} ended by \end{tikzpicture}. |  \end{tikzpicture}  
+LaTeX Error::/home/eric/texmf/tex/latex/beamer/base/themes/outer/beamerouterthemexsede.sty::12::0::Missing $ inserted.
+LaTeX Error::/home/eric/texmf/tex/latex/beamer/base/themes/outer/beamerouterthemexsede.sty::12::0::Missing } inserted. |  \end{tikzpicture} 
+LaTeX Error::/home/eric/texmf/tex/latex/beamer/base/themes/outer/beamerouterthemexsede.sty::12::0::Missing } inserted. |  \end{tikzpicture} 
+LaTeX Error::...base/themes/outer/beamerouterthemexsede.sty::0::0::Emergency stop. (job aborted, no legal \end found)
+LaTeX Error::/home/eric/texmf/tex/latex/beamer/base/themes/outer/beamerouterthemexsede.sty::0::0:: ==> Fatal error occurred, no output PDF file produced! 

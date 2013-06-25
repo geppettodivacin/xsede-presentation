@@ -1,0 +1,13 @@
+\usepackage{tikz}
+
+\setbeamertemplate{footline}
+{
+  \begin{tikzpicture}[remember picture, overlay]
+    \node [anchor=south, xshift=-0.1pt, yshift=-2.1pt] (image) at (current page.south)
+      {\includegraphics[width=\paperwidth]{footer.png}};
+    \node [anchor=west, xshift=17.5mm, yshift=-9.5mm] (pgnum) at (image.north west)
+      {\usebeamercolor[fg]{page number in head/foot}\usebeamerfont{page number in head/foot} \insertframenumber};
+    \node [anchor=west, xshift=4mm, yshift=-2.0mm] (nsf) at (image.west)
+      {\includegraphics[width=8mm]{nsf_logo.png}};
+  \end{tikzpicture}
+}
