@@ -5,6 +5,8 @@ Beamer theme for XSEDE slide presentations. Clone or extract to ~/texmf/tex/late
 
     \usetheme{xsede}
 
+![Sample Title](https://github.com/geppettodivacin/geppettodivacin.github.io/raw/master/images/xsedetest-0.png)
+
 Bugs
 ----
 
@@ -21,3 +23,9 @@ due to the implementation of the title. Otherwise, there will be no background, 
 The institution is in an awkward place by default, and it is difficult to move it. For now, it would probably be better to include any institutions with the author like this:
 
     \author{First Last\\Institution}
+
+For my example image, I used
+
+    \institute{Institution\\Department of Mathematics}
+
+as an example of this.
