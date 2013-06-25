@@ -28,4 +28,4 @@ For my example image, I used
 
     \institute{Institution\\Department of Mathematics}
 
-as an example of this.
+as an example of this problem.
