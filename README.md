@@ -10,6 +10,8 @@ Beamer theme for XSEDE slide presentations. Clone or extract to ~/texmf/tex/late
 Requirements
 ------------
 
+* TikZ
+* contour
 
 Quirks
 ------
