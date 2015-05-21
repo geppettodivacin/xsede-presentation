@@ -5,7 +5,7 @@ Beamer theme for XSEDE slide presentations. Clone or extract to ~/texmf/tex/late
 
     \usetheme{xsede}
 
-![Sample Title](https://github.com/geppettodivacin/xsede-presentation/raw/master/images/xsedetest-0.png)
+![Sample Title](https://github.com/geppettodivacin/xsede-presentation/raw/master/images/title.png)
 
 Requirements
 ------------
